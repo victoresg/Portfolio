@@ -1,3 +1,11 @@
+import First from '../components/basics/First'
+import Second from '../components/basics/Second'
+
 export default function Home() {
-    return <p>home</p>
+  return (
+    <div>
+      <First />
+      <Second />
+    </div>
+  )
 }
