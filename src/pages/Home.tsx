@@ -4,7 +4,7 @@ import Second from '../components/basics/Second'
 export default function Home() {
   return (
     <div>
-      <First />
+      <First title="com parâmetro" score={9}/>
       <Second />
     </div>
   )

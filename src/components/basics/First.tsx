@@ -1,7 +1,20 @@
-export default function First() {
+type FirstProps = {
+  title?: String,
+  score: Number
+}
+
+export default function First(props: FirstProps) {
+
+  const status = props.score >= 6 ? 'Aprovado' : 'Reprovado'
+
   return (
-    <p>
-      Primeiro componente básico
-    </p>
+    <div>
+      <p>
+        {props.title}
+      </p>
+      <p>
+        {status}
+      </p>
+    </div>
   )
 }
