@@ -1,3 +1,5 @@
+import { MyName } from './styles';
+
 type FirstProps = {
   title?: String,
   score: Number
@@ -8,13 +10,13 @@ export default function First(props: FirstProps) {
   const status = props.score >= 6 ? 'Aprovado' : 'Reprovado'
 
   return (
-    <div>
-      <p>
+    <MyName>
+      <h1>
         {props.title}
-      </p>
+      </h1>
       <p>
         {status}
       </p>
-    </div>
+    </MyName>
   )
 }
