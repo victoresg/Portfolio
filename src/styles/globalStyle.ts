@@ -263,29 +263,6 @@ const GlobalStyle = createGlobalStyle`
     100% { opacity: 1; }
   }
 
-  /* responsive */
-
-  @media (max-width: 768px) {
-    .my-account {
-      .address {
-        .address-list{
-          flex-direction: column;
-          .mobile-address {
-            padding: 15px 0;
-          }
-          .address-list-info {
-            h4 {
-              font-size: 14px;
-            }
-          }
-          svg {
-            width: 45px !important;
-          }
-        }
-      }
-    }
-  }
-
 `;
 
 export {
