@@ -1,12 +1,12 @@
-import First from '../../components/basics/apresentation'
-import Second from '../../components/basics/Second'
+import { Header } from '../../components/header';
+import MyName from '../../components/my-name'
 
 import { HomeContainer } from './styles';
 
 
 export default () => (
   <HomeContainer>
-    <First title="Olá, meu nome é Victor Elias" score={9}/>
-    <Second />
+    <Header/>
+    <MyName title="Olá, meu nome é Victor Elias" score={9}/>
   </HomeContainer>
 )

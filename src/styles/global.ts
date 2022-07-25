@@ -1,7 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
-
 const GlobalStyle = createGlobalStyle`
+  :root {
+    --primary: #f5f9fc;
+  }
   *,
   *::before,
   *::after {
@@ -24,6 +26,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: $font-family-base;
     padding-top: constant(safe-area-inset-top);
     padding-top: env(safe-area-inset-top);
+    background-color: var(--primary);
   }
   #__nuxt {
     overflow-x: hidden;
