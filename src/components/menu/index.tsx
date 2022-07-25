@@ -1,8 +1,6 @@
 import { Container } from './styles';
 import { Link, NavLink } from 'react-router-dom';
 
-import logoImg from '../../assets/logo.svg';
-
 export default function Menu() {
   return (
     <Container>

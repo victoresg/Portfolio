@@ -12,15 +12,17 @@ export const Container = styled.div`
         content: "";
         border: 2px solid #000;
         position: absolute;
-        left: -5px;
-        height: 100%;
+        left: -10px;
+        top: 0;
+        bottom: 0;
       }
       &::after {
         content: "";
         border: 2px solid #000;
         position: absolute;
-        right: -5px;
-        height: 100%;
+        right: -10px;
+        top: 0;
+        bottom: 0;
       }
     }
   }
