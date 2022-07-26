@@ -12,14 +12,14 @@ export default function Menu() {
       </NavLink>
 
       <NavLink
-          to="about"
+          to="/about"
           className={({ isActive }) => (isActive ? "active" : "")}
       >
           Sobre
       </NavLink>
 
       <NavLink
-          to="contact"
+          to="/contact"
           className={({ isActive }) => (isActive ? "active" : "")}
       >
           Contato
