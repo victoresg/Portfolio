@@ -2,7 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --primary: #f5f9fc;
+    --primary: #fff;
+    --secondary: #000;
+    --tertiary: #C0392B
   }
   *,
   *::before,

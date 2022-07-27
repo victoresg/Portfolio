@@ -1,8 +1,7 @@
 import { Container } from './styles';
-import Menu from '../menu'
+import Menu from '../Menu'
 
 export function Header() {
-
   return (
     <Container>
       <Menu />
