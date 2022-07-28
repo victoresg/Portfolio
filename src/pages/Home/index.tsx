@@ -5,8 +5,8 @@ import { HomeContainer } from './styles';
 
 export default () => (
   <HomeContainer>
-    <Card title="meu card" color="var(--tertiary)" >
-      <MyName title="Olá, meu nome é Victor Elias" min={0} max={10} />
-    </Card>
+    {/* <Card title="meu card" color="var(--tertiary)" > */}
+      <MyName title="Olá, meu nome é Victor Elias" />
+    {/* </Card> */}
   </HomeContainer>
 )

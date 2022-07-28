@@ -1,13 +1,15 @@
 import { Header } from './components/basics/Header';
+import { Footer } from './components/basics/Footer'
 import { GlobalStyle } from "./styles/global";
-import Routes from "./Routes";
+import Content from './components/basics/Content';
 
 export function App() {
   return (
     <>
       <Header />
-      <Routes />
+      <Content />
       <GlobalStyle />
+      <Footer />
     </>
   )
 }

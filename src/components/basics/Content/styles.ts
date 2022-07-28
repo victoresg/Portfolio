@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-background-color: var(--primary);
+  min-height: calc(100vh - 200px);
   h1 {
-    text-align: center;
+    color: var(--primary);
   }
 `

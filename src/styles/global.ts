@@ -4,7 +4,8 @@ const GlobalStyle = createGlobalStyle`
   :root {
     --primary: #fff;
     --secondary: #000;
-    --tertiary: #C0392B
+    --tertiary: #C0392B;
+    --dark: #000;
   }
   *,
   *::before,
@@ -28,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: $font-family-base;
     padding-top: constant(safe-area-inset-top);
     padding-top: env(safe-area-inset-top);
-    background-color: var(--primary);
+    background-color: var(--dark);
   }
 `;
 
