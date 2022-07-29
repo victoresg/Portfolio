@@ -7,6 +7,11 @@ const GlobalStyle = createGlobalStyle`
     --tertiary: #C0392B;
     --dark: #000;
   }
+  * { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   *,
   *::before,
   *::after {

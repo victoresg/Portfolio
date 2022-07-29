@@ -10,6 +10,9 @@ const Container = styled.footer`
   height: 20rem;
   width: 100%;
   padding: 2rem 15rem;
+  @media(max-width: 768px) {
+    padding: 0;
+  }
   h1 {
     text-align: center;
   }
