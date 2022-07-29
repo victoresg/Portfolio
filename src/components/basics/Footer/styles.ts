@@ -1,15 +1,13 @@
 import styled from "styled-components";
-import { flexAlignStart, flexAlignCenter } from '../../../styles/mixins/flexAlign'
-
+import { flexAlignCenter } from '../../../styles/mixins/flexAlign'
 
 const Container = styled.footer`
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   background-color: var(--primary);
-  height: 20rem;
-  width: 100%;
-  padding: 2rem 15rem;
+  height: 15rem;
+  gap: 24px;
+  padding: 20px 0;
   @media(max-width: 768px) {
     padding: 0;
   }
@@ -26,13 +24,31 @@ const Container = styled.footer`
   }
 `
 const LogoContainer = styled.div`
-  width: 50%;
   ${flexAlignCenter}
+  border-right: 3px solid var(--dark);
   flex-direction: column;
+  div {
+    margin-top: 15px;
+  }
 `
 const ListContainer = styled.div`
-  width: 50%;
   ${flexAlignCenter}
+  flex-direction: column;
+  border-left: 3px solid var(--dark);
+  h3 {
+    margin-left: 10px;
+  }
+  ul {
+    ${flexAlignCenter}
+    list-style: none;
+    li {
+      margin: 15px 10px;
+      img {
+        cursor: pointer;
+        width: 80px;
+      }
+    }
+  }
 `
 
 export {
