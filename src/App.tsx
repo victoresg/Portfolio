@@ -1,7 +1,7 @@
-import { Header } from './components/basics/Header';
-import { Footer } from './components/basics/Footer'
+import { Header } from './components/layout/Header';
+import { Footer } from './components/layout/Footer'
 import { GlobalStyle } from "./styles/global";
-import Content from './components/basics/Content';
+import Content from './components/layout/Content';
 
 export function App() {
   return (
