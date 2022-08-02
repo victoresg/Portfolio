@@ -1,8 +1,8 @@
 import { Container, LogoContainer, ListContainer } from './styles';
-import reactLogo from '../../../assets/png/React-icon.png'
-import vueLogo from '../../../assets/png/Vue-icon.png'
-import linkedin from '../../../assets/png/linkedin.png'
-import twitter from '../../../assets/png/twitter.png'
+import reactLogo from '@assets/png/React-icon.png'
+import vueLogo from '@assets/png/Vue-icon.png'
+import linkedin from '@assets/png/linkedin.png'
+import twitter from '@assets/png/twitter.png'
 
 export function Footer() {
   return (

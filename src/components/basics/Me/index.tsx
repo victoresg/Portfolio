@@ -6,7 +6,7 @@ type FirstProps = {
   // min: number
 }
 
-export default function First(props: FirstProps) {
+export default function Me(props: FirstProps) {
 
   // const status = props.score >= 6 ? 'Aprovado' : 'Reprovado'
 
@@ -23,7 +23,6 @@ export default function First(props: FirstProps) {
       <h1>
         { props.title }
       </h1>
-
     </MyName>
   )
 }
