@@ -1,8 +1,10 @@
 import { AboutContainer } from './styles';
 
 
-export default () => (
-  <AboutContainer>
-    <span>about</span>
-  </AboutContainer>
-)
+export default function About() {
+  return(
+    <AboutContainer>
+      <span>about</span>
+    </AboutContainer>
+  )
+}

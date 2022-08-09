@@ -3,10 +3,12 @@ import Me from '@components/basics/Me';
 import { HomeContainer } from './styles';
 
 
-export default () => (
-  <HomeContainer>
-    {/* <Card title="meu card" color="var(--tertiary)" > */}
-      <Me title="Olá, meu nome é Victor Elias" />
-    {/* </Card> */}
-  </HomeContainer>
-)
+export default function Honme() {
+  return(
+    <HomeContainer>
+      {/* <Card title="meu card" color="var(--tertiary)" > */}
+        <Me title="Olá, meu nome é Victor Elias" />
+      {/* </Card> */}
+    </HomeContainer>
+  )
+}

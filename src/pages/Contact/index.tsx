@@ -1,8 +1,10 @@
 import { ContactContainer } from './styles';
 
 
-export default () => (
-  <ContactContainer>
-    <span>Contact</span>
-  </ContactContainer>
-)
+export default function Contact() {
+  return(
+    <ContactContainer>
+      <span>Contact</span>
+    </ContactContainer>
+  )
+}
