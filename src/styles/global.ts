@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
     --primary: #000;
     --secondary: #000;
     --tertiary: #00FA9A;
-    --quartinary: #00fa9a4d;
+    --quartinary: #00fa9aa6;
   }
   * { 
     margin: 0;
