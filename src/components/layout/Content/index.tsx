@@ -1,11 +1,13 @@
 import { Container } from './styles';
-import Routes from '../../../Routes';
 
-export default function Content() {
+type ContentProps = {
+  children: JSX.Element | JSX.Element[]
+}
 
+export default function Content(props: ContentProps) {
   return (
     <Container>
-      <Routes />
+      { props.children }
     </Container>
   )
 }

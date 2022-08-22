@@ -1,15 +1,15 @@
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer'
 import { GlobalStyle } from "./styles/global";
-import Content from './components/layout/Content';
+import Routes from './Routes';
 
 export function App() {
   return (
-    <>
+    <div>
       <Header />
-      <Content />
+      <Routes />
       <GlobalStyle />
       <Footer />
-    </>
+    </div>
   )
 }

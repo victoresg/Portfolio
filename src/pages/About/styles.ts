@@ -1,4 +1,4 @@
 import styled from "styled-components";
 
-export const AboutContainer = styled.main`
+export const AboutContainer = styled.div`
 `
