@@ -7,16 +7,17 @@ export const Container = styled.nav`
     height: auto;
   a {
     text-decoration: none;
-    color: var(--dark);
+    color: var(--secondary);
     font-weight: bold;
     transition: all 0.3s;
   }
   .active {
+    color: var(--tertiary);
     transform: scale(1.1);
     position: relative;
     &::before {
       content: "";
-      border: 2px solid #000;
+      border: 2px solid var(--tertiary);
       position: absolute;
       left: -10px;
       top: 0;
@@ -24,7 +25,7 @@ export const Container = styled.nav`
     }
     &::after {
       content: "";
-      border: 2px solid #000;
+      border: 2px solid var(--tertiary);
       position: absolute;
       right: -10px;
       top: 0;

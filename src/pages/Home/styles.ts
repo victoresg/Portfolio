@@ -5,7 +5,5 @@ export const HomeContainer = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  @media(max-width: 1000px) {
-    justify-content: center;
-  }
+  padding: 100px 0;
 `

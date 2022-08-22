@@ -1,14 +1,16 @@
 import Me from '@components/basics/Me';
 // import Card from '../../components/layout/Card/Card';
 import { HomeContainer } from './styles';
+import Card from '@components/layout/Card/Card';
 
+export default function Home() {
+  const apresentationText = 'Meu nome é Victor Elias e sou <br> Desenvolvedor Web'
 
-export default function Honme() {
   return(
     <HomeContainer>
-      {/* <Card title="meu card" color="var(--tertiary)" > */}
-        <Me title="Olá, meu nome é Victor Elias" />
-      {/* </Card> */}
+      <Card title="Olá" color="var(--primary)" >
+        <Me title={apresentationText} />
+      </Card>
     </HomeContainer>
   )
 }

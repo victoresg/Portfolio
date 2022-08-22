@@ -2,10 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --primary: #fff;
+    --primary: #434343;
     --secondary: #000;
-    --tertiary: #C0392B;
-    --dark: #000;
+    --tertiary: #00FA9A;
   }
   * { 
     margin: 0;
@@ -34,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: $font-family-base;
     padding-top: constant(safe-area-inset-top);
     padding-top: env(safe-area-inset-top);
-    background-color: var(--dark);
+    background-color: var(--secondary);
   }
 `;
 

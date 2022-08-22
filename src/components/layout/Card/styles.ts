@@ -6,6 +6,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   background-color: ${props => props.color};
-  color: white;
+  color: var(--tertiary);
   margin: 1rem;
+  padding: 30px;
+  border-radius: 10px;
 `

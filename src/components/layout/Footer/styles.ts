@@ -29,10 +29,10 @@ const Container = styled.footer`
 `
 const LogoContainer = styled.div`
   ${flexAlignCenter}
-  border-right: 3px solid var(--dark);
+  border-right: 3px solid var(--tertiary);
   @media(max-width: 768px) {
     border-right: none;
-    border-bottom: 2px solid var(--dark);
+    border-bottom: 2px solid var(--tertiary);
   }
   flex-direction: column;
   div {
@@ -42,7 +42,7 @@ const LogoContainer = styled.div`
 const ListContainer = styled.div`
   ${flexAlignCenter}
   flex-direction: column;
-  border-left: 3px solid var(--dark);
+  border-left: 3px solid var(--tertiary);
   @media(max-width: 768px) {
     border: none;
   }
