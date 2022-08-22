@@ -1,10 +1,12 @@
 import { createGlobalStyle } from "styled-components";
+import circuit from '@assets/png/o-circuito.png'
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --primary: #434343;
+    --primary: #000;
     --secondary: #000;
     --tertiary: #00FA9A;
+    --quartinary: #00fa9a4d;
   }
   * { 
     margin: 0;
@@ -29,11 +31,23 @@ const GlobalStyle = createGlobalStyle`
 
   // Generals
   body {
+    position: relative;
     margin: 0;
     font-family: $font-family-base;
-    padding-top: constant(safe-area-inset-top);
     padding-top: env(safe-area-inset-top);
     background-color: var(--secondary);
+    ::before {
+      content: "";
+      position: fixed;
+      opacity: 0.1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      background-image: url(${circuit}) !important;
+      background-position: center;
+    }
   }
 `;
 

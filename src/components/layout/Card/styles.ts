@@ -10,4 +10,8 @@ export const Container = styled.div`
   margin: 1rem;
   padding: 30px;
   border-radius: 10px;
+  h2 {
+    text-align: left;
+    width: 100%;
+  }
 `

@@ -7,7 +7,7 @@ export const Container = styled.nav`
     height: auto;
   a {
     text-decoration: none;
-    color: var(--secondary);
+    color: var(--quartinary);
     font-weight: bold;
     transition: all 0.3s;
   }

@@ -8,12 +8,16 @@ const Container = styled.footer`
   height: 100%;
   gap: 24px;
   padding: 20px 0;
+  border-top: 1px solid var(--quartinary);
   @media(max-width: 768px) {
     ${flexAlignCenter}
     flex-direction: column;
   }
   h1 {
     text-align: center;
+  }
+  h3 {
+    color: var(--tertiary);
   }
   img {
     width: 100px;
@@ -29,7 +33,7 @@ const Container = styled.footer`
 `
 const LogoContainer = styled.div`
   ${flexAlignCenter}
-  border-right: 3px solid var(--tertiary);
+  border-right: 3px solid var(--quartinary);
   @media(max-width: 768px) {
     border-right: none;
     border-bottom: 2px solid var(--tertiary);
@@ -42,7 +46,7 @@ const LogoContainer = styled.div`
 const ListContainer = styled.div`
   ${flexAlignCenter}
   flex-direction: column;
-  border-left: 3px solid var(--tertiary);
+  border-left: 3px solid var(--quartinary);
   @media(max-width: 768px) {
     border: none;
   }
