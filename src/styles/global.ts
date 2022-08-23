@@ -49,6 +49,18 @@ const GlobalStyle = createGlobalStyle`
       background-position: center;
     }
   }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 18px;
+  }
 `;
 
 export {

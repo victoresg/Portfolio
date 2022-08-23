@@ -11,33 +11,32 @@ export const Container = styled.div`
   margin: 1rem;
   padding: 30px;
   border-radius: 10px;
+  transition: transform 250ms;
+  max-width: 800px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--tertiary);
+    opacity: 0.1;
+    transition: all 0.3s;
+    border-radius: 10px;
+  }
+
+  &:hover {
+    transform: translateY(-10px) translateX(10px);
+  }
+  &:hover:before {
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
   h2 {
     text-align: left;
     width: 100%;
-  }
-  &::before {  
-    transform: scaleX(0);
-    transform-origin: bottom right;
-  }
-
-  &:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-
-  &::before {
-    content: "e minha paixão é o Front-End!";
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    top: 0; 
-    right: 0; 
-    bottom: 0; 
-    left: 0;
-    background: var(--primary);
-    transition: transform .3s ease;
   }
 `
