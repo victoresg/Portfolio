@@ -32,9 +32,9 @@ export default function Me(props: FirstProps) {
 
   return (
     <MyName>
-      <h2>
+      <div>
         { parser(props.title) }
-      </h2>
+      </div>
       <img src={photo} alt="" />
     </MyName>
   )

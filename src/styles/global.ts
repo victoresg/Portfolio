@@ -58,6 +58,10 @@ const GlobalStyle = createGlobalStyle`
     font-size: 25px;
   }
 
+  h6 {
+    font-size: 20px;
+  }
+
   p {
     font-size: 18px;
   }

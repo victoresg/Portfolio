@@ -1,5 +1,4 @@
 import Me from '@components/basics/Me';
-// import Card from '../../components/layout/Card/Card';
 import { HomeContainer } from './styles';
 import Card from '@components/layout/Card/Card';
 
