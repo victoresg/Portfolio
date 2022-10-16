@@ -1,4 +1,5 @@
 import { MyName } from './styles';
+import parse, { Element } from 'html-react-parser';
 import photo from '@assets/jpg/eu.jpg'
 
 type FirstProps = {
@@ -6,6 +7,15 @@ type FirstProps = {
   // max: number,
   // min: number
 }
+
+const parser = (input: string) =>
+  parse(input, {
+    replace: domNode => {
+      if (domNode instanceof Element && domNode.attribs.class === 'remove') {
+        return <></>;
+      }
+    }
+  });
 
 export default function Me(props: FirstProps) {
 
@@ -23,7 +33,7 @@ export default function Me(props: FirstProps) {
   return (
     <MyName>
       <div>
-        { props.title }
+        { parser(props.title) }
       </div>
       <img src={photo} alt="" />
     </MyName>
