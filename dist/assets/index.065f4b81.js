@@ -172,7 +172,7 @@ Error generating stack: `+i.message+`
       }
     }
   }
-`;var x0="/victoresg.github.io/assets/React-icon.42d32e69.png",C0="/victoresg.github.io/assets/Vue-icon.4a9505c3.png",E0="/victoresg.github.io/assets/linkedin.5b59e954.png",_0="/victoresg.github.io/assets/twitter.e6ca9110.png";function P0(){return pe(w0,{children:[pe(S0,{children:[A("h3",{children:"My favorite Frameworks JS"}),pe("div",{children:[A("img",{src:x0,alt:""}),A("img",{src:C0,alt:""})]})]}),A(k0,{children:pe("div",{children:[A("h3",{children:"Redes Sociais"}),pe("ul",{children:[A("li",{children:A("img",{src:E0,alt:""})}),A("li",{children:A("img",{src:_0,alt:""})})]})]})})]})}var N0="/victoresg.github.io/assets/o-circuito.c0f75bc0.png";const z0=a0`
+`;var x0="/vite-deploy-demo/assets/React-icon.42d32e69.png",C0="/vite-deploy-demo/assets/Vue-icon.4a9505c3.png",E0="/vite-deploy-demo/assets/linkedin.5b59e954.png",_0="/vite-deploy-demo/assets/twitter.e6ca9110.png";function P0(){return pe(w0,{children:[pe(S0,{children:[A("h3",{children:"My favorite Frameworks JS"}),pe("div",{children:[A("img",{src:x0,alt:""}),A("img",{src:C0,alt:""})]})]}),A(k0,{children:pe("div",{children:[A("h3",{children:"Redes Sociais"}),pe("ul",{children:[A("li",{children:A("img",{src:E0,alt:""})}),A("li",{children:A("img",{src:_0,alt:""})})]})]})})]})}var N0="/vite-deploy-demo/assets/o-circuito.c0f75bc0.png";const z0=a0`
   :root {
     --primary: #000;
     --secondary: #000;
@@ -308,7 +308,7 @@ table {
       margin-top: 30px;
     }
   }
-`;var L0="/victoresg.github.io/assets/eu.c76aa703.jpg";function O0(e){return pe($0,{children:[A("div",{children:e.title}),A("img",{src:L0,alt:""})]})}const A0=Me.div`
+`;var L0="/vite-deploy-demo/assets/eu.c76aa703.jpg";function O0(e){return pe($0,{children:[A("div",{children:e.title}),A("img",{src:L0,alt:""})]})}const A0=Me.div`
   min-height: calc(100vh - 230px);
   display: flex;
   align-items: center;
@@ -432,4 +432,4 @@ table {
   color: var(--tertiary);
  }
 `;function H0(){return pe(D0,{children:[pe(F0,{children:[pe(U0,{children:[pe("div",{children:[A("h6",{children:"Aqui est\xE3o algumas das tecnologias com as quais tenho trabalhado recentemente:"}),A("p",{children:"VueJs, NuxtJs, Vuetify, ReactJs, JavaScript, TypeScript, CSS, HTML, SASS, STYLUS, Tailwind, Bootstrap"})]}),pe("div",{children:[A("h6",{children:"Considera\xE7\xF5es:"}),A("p",{children:"ReactJs e Styled Components s\xE3o tecnologias que venho estudando para projetos particulares. \xC9 importante ressaltar que tecnologias como HTML5 e CSS3 por exemplo ao meu ver s\xE3o como ler e escrever para um dev Front-End."})]})]}),A(B0,{children:pe("div",{children:[A("h6",{children:"Experi\xEAncias profissionais:"}),A("p",{children:"Em minha jornada como DEV minhas principais realiza\xE7\xF5es foram dentro da startup em que hoje trabalho"}),pe("details",{children:[A("summary",{children:"Seedz"}),A("p",{children:"Aplica\xE7\xE3o desenvolvida utilizando NuxtJs, SASS e Bootstrap"})]}),pe("details",{children:[A("summary",{children:"Seedz Force"}),A("p",{children:"Aplica\xE7\xE3o desenvolvida utilizando VueJs, SASS e Bootstrap"})]}),pe("details",{children:[A("summary",{children:"Seedz Admin"}),A("p",{children:"Aplica\xE7\xE3o desenvolvida utilizando VueJs, Vuetify, STYLUS, Bootstrap e TypeScript"})]})]})})]}),A(V0,{children:A("h3",{children:"_________________________"})})]})}const W0=Me.div`
-`;function Q0(){return A(W0,{children:A("span",{children:"Contact"})})}function Y0(){return A(R0,{children:pe(um,{children:[A(El,{path:"/",element:A(M0,{})}),A(El,{path:"/about",element:A(H0,{})}),A(El,{path:"/contact",element:A(Q0,{})})]})})}function K0(){return pe("div",{children:[A(y0,{}),A(Y0,{}),A(z0,{}),A(P0,{})]})}oo.createRoot(document.getElementById("root")).render(A(Qn.StrictMode,{children:A(cm,{basename:"/",children:A(K0,{})})}));
+`;function Q0(){return A(W0,{children:A("span",{children:"Contact"})})}function Y0(){return A(R0,{children:pe(um,{children:[A(El,{path:"/",element:A(M0,{})}),A(El,{path:"/about",element:A(H0,{})}),A(El,{path:"/contact",element:A(Q0,{})})]})})}function K0(){return pe("div",{children:[A(y0,{}),A(Y0,{}),A(z0,{}),A(P0,{})]})}oo.createRoot(document.getElementById("root")).render(A(Qn.StrictMode,{children:A(cm,{basename:"/vite-deploy-demo",children:A(K0,{})})}));
