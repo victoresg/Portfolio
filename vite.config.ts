@@ -5,6 +5,7 @@ const path = require('path');
 
 export default defineConfig({
   base: '/https://github.com/victoresg/victoresg.github.io/',
+  
   resolve: {
     alias: {
       '@components': path.resolve(__dirname, './src/components'),
