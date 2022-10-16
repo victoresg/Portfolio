@@ -1,5 +1,7 @@
 {
+  "homepage" : "https://victoresg.github.io/home",
   "name": "portifolio",
+  "version": "0.1.0",
   "private": true,
   "version": "0.0.0",
   "scripts": {
