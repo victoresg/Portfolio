@@ -1,14 +1,15 @@
 {
-  "homepage": "https://victoresg.github.io/victoresg.github.io",
   "name": "portifolio",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
+  "homepage": "https://victoresg.github.io/victoresg.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "publish": "npm run build && ./node_modules/.bin/gh-pages -d build"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.24",

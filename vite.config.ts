@@ -4,8 +4,7 @@ import react from '@vitejs/plugin-react'
 const path = require('path');
 
 export default defineConfig({
-  base: '/https://github.com/victoresg/victoresg.github.io/',
-  
+  base: 'https://victoresggithub.io/victoresg.github.io/',
   resolve: {
     alias: {
       '@components': path.resolve(__dirname, './src/components'),
