@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
+  min-height: calc(100vh - 230px);
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   padding: 100px 0;
 `

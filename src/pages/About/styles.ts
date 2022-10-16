@@ -4,6 +4,7 @@ import { css } from "styled-components";
 const AboutContainer = styled.div`
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   @media(max-width: 768px) {
     padding-top: 8rem;
@@ -62,7 +63,7 @@ const FirstColumn = styled.div `
 `
 
 const SecondtColumn = styled.div `
-  div {
+  > div {
     ${baseColumnStyle}
     > details {
       margin-top: 2rem;
@@ -77,9 +78,16 @@ const SecondtColumn = styled.div `
   }
 `
 
+const JobContainer = styled.div`
+ h3 {
+  color: var(--tertiary);
+ }
+`
+
 export {
   AboutContainer,
   RowContainer,
   FirstColumn,
-  SecondtColumn
+  SecondtColumn,
+  JobContainer
 }

@@ -1,4 +1,4 @@
-import { AboutContainer, RowContainer, FirstColumn, SecondtColumn } from './styles';
+import { AboutContainer, RowContainer, FirstColumn, SecondtColumn, JobContainer } from './styles';
 
 export default function About() {
   return(
@@ -39,7 +39,7 @@ export default function About() {
             </details>
 
             <details>
-              <summary>Admin</summary>
+              <summary>Seedz Admin</summary>
               <p>
                 Aplicação desenvolvida utilizando VueJs, Vuetify, STYLUS, Bootstrap e TypeScript
               </p>
@@ -47,6 +47,12 @@ export default function About() {
           </div>
         </SecondtColumn>
       </RowContainer>
+      
+      <JobContainer>
+        <h3>
+          _________________________
+        </h3>
+      </JobContainer>
     </AboutContainer>
   )
 }

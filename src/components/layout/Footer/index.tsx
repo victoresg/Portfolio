@@ -16,7 +16,7 @@ export function Footer() {
       </LogoContainer>
       <ListContainer>
         <div>
-          <h3>Redes Sociais:</h3>
+          <h3>Redes Sociais</h3>
           <ul>
             <li>
               <img src={linkedin} alt="" />

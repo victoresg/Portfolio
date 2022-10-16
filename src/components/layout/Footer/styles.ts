@@ -5,10 +5,9 @@ const Container = styled.footer`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--primary);
-  height: 100%;
   gap: 24px;
-  padding: 20px 0;
   border-top: 1px solid var(--quartinary);
+  padding: 30px 0;
   @media(max-width: 768px) {
     ${flexAlignCenter}
     flex-direction: column;
@@ -20,10 +19,7 @@ const Container = styled.footer`
     color: var(--tertiary);
   }
   img {
-    width: 100px;
-    @media(max-width: 768px) {
-      width: 50px;
-    }
+    width: 40px;
     transition: all 0.3s;
     margin: 15px 0;
     &:hover {
@@ -41,6 +37,9 @@ const LogoContainer = styled.div`
   flex-direction: column;
   div {
     margin-top: 15px;
+    img {
+      margin: 5px 5px;
+    }
   }
 `
 const ListContainer = styled.div`
@@ -50,20 +49,15 @@ const ListContainer = styled.div`
   @media(max-width: 768px) {
     border: none;
   }
-  h3 {
-    margin-left: 10px;
-  }
+
   ul {
     ${flexAlignCenter}
     list-style: none;
     li {
-      margin: 15px 10px;
+      margin: 0 10px;
       img {
         cursor: pointer;
-        width: 80px;
-        @media(max-width: 768px) {
-          width: 40px;
-        }
+        width: 40px;
       }
     }
   }
