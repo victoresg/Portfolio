@@ -9,13 +9,12 @@ import {
   import About from "../pages/About";
   import Contact from "../pages/Contact";
 
-
   
   export default function AppRoutes() {
     return (
       <Content>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

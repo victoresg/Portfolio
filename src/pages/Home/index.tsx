@@ -1,6 +1,11 @@
 import Me from '@components/basics/Me';
-import { HomeContainer } from './styles';
+import { HomeContainer, HomeCards } from './styles';
 import Card from '@components/layout/Card/Card';
+
+import reactLogo from '@assets/png/React-icon.png'
+import vueLogo from '@assets/png/Vue-icon.png'
+import linkedin from '@assets/png/linkedin.png'
+import twitter from '@assets/png/twitter.png'
 
 export default function Home() {
   const apresentationText = `
@@ -16,6 +21,15 @@ export default function Home() {
       <Card title="Olá" color="var(--primary)" >
         <Me title={apresentationText} />
       </Card>
+
+      <HomeCards>
+        <div>
+          <img src={linkedin} width="100" alt="" />
+        </div>
+        <div>
+          <img src={twitter} width="100" alt="" />
+        </div>
+      </HomeCards>
     </HomeContainer>
   )
 }
