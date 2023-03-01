@@ -12,8 +12,12 @@ export default function Home() {
   <br>
   <h4>Meu nome é Victor Elias e sou Desenvolvedor Web.</h4>
   <br>
-  <p>Nos últimos anos na área de desenvolvimento tenho trabalhado com os frameworks Vue JS e React JS, desenvolvendo sites e funcionalidades 
-  dentro dessas tecnologias. Venho ganhando espaço no mercado de trabalho, sempre empolgado para aprender coisas novas.</p>
+  <p>
+    Nos últimos anos tenho trabalhado principalmente com os frameworks Vue JS e React JS, desenvolvendo websites e funcionalidades dentro destas tecnologias.
+
+    Posso dizer que venho me aperfeiçoando dentro do mercado de T.I, aprendendo novas ferramentas e novos conceitos para que eu possa cada vez mais me destacar dentro do mesmo, 
+    buscar maneiras modernas em resolver desafios e satisfazer as necessidades dos usuários é algo que tenho prazer, meu trabalho é modernizar métodos e pensar no futuro.
+  </p>
   `
 
   return(
@@ -21,15 +25,6 @@ export default function Home() {
       <Card title="Olá" color="var(--primary)" >
         <Me title={apresentationText} />
       </Card>
-
-      <HomeCards>
-        <div>
-          <img src={linkedin} width="100" alt="" />
-        </div>
-        <div>
-          <img src={twitter} width="100" alt="" />
-        </div>
-      </HomeCards>
     </HomeContainer>
   )
 }

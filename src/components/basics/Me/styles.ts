@@ -15,6 +15,9 @@ export const MyName = styled.div`
       margin-top: 30px;
     }
   }
+  h4 {
+    line-height: 30px;
+  }
   img {
     width: 200px;
     border-radius: 10px;

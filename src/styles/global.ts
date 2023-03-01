@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     outline: 0 !important;
   }
-  /* html {
+  html {
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -31,12 +31,12 @@ const GlobalStyle = createGlobalStyle`
 
   // Generals
   body {
-    position: relative;
+    /* position: relative;
     margin: 0;
     font-family: $font-family-base;
-    padding-top: env(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top); */
     background-color: var(--secondary);
-    ::before {
+    /* ::before {
       content: "";
       position: fixed;
       opacity: 0.1;
@@ -45,10 +45,9 @@ const GlobalStyle = createGlobalStyle`
       left: 0;
       right: 0;
       z-index: -1;
-      background-image: url(${circuit}) !important;
       background-position: center;
-    }
-  } */
+    } */
+  }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
