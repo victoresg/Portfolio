@@ -6,7 +6,7 @@ import { App } from './App'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/vite-deploy-demo">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>

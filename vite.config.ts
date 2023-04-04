@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 const path = require('path');
 
 export default defineConfig({
-  base: '/vite-deploy-demo/',
+  base: '/',
   resolve: {
     alias: {
       '@components': path.resolve(__dirname, './src/components'),

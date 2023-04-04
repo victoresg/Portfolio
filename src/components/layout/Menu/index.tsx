@@ -5,8 +5,9 @@ export default function Menu() {
   return (
     <Container>
       <NavLink
-          to="/home"
+          to="/"
           className={({ isActive }) => (isActive ? "active" : "")}
+          end
       >
           Home
       </NavLink>
