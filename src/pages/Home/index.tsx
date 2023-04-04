@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player'
 export default function Home() {
   return(
     <HomeContainer>
+      canva n funciona no github pages
       <ReactPlayer
         url='src/assets/mp4/intro.mp4'
         width='100%'
