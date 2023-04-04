@@ -116,7 +116,7 @@ Error generating stack: `+i.message+`
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */var Tg=H.exports,Dg=Symbol.for("react.element"),Lg=Symbol.for("react.fragment"),Ag=Object.prototype.hasOwnProperty,Ig=Tg.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,bg={key:!0,ref:!0,__self:!0,__source:!0};function _d(e,t,n){var r,o={},i=null,l=null;n!==void 0&&(i=""+n),t.key!==void 0&&(i=""+t.key),t.ref!==void 0&&(l=t.ref);for(r in t)Ag.call(t,r)&&!bg.hasOwnProperty(r)&&(o[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)o[r]===void 0&&(o[r]=t[r]);return{$$typeof:Dg,type:e,key:i,ref:l,props:o,_owner:Ig.current}}tl.Fragment=Lg;tl.jsx=_d;tl.jsxs=_d;ts.exports=tl;const re=ts.exports.jsx,Bt=ts.exports.jsxs;function Mg(){return Bt(xg,{children:[re(Ml,{to:"/home",className:({isActive:e})=>e?"active":"",children:"Home"}),re(Ml,{to:"/about",className:({isActive:e})=>e?"active":"",children:"Sobre"}),re(Ml,{to:"/contact",className:({isActive:e})=>e?"active":"",children:"Contato"})]})}function Ng(){return re(Rg,{children:re(Mg,{})})}const ur=ho`
+ */var Tg=H.exports,Dg=Symbol.for("react.element"),Lg=Symbol.for("react.fragment"),Ag=Object.prototype.hasOwnProperty,Ig=Tg.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,bg={key:!0,ref:!0,__self:!0,__source:!0};function _d(e,t,n){var r,o={},i=null,l=null;n!==void 0&&(i=""+n),t.key!==void 0&&(i=""+t.key),t.ref!==void 0&&(l=t.ref);for(r in t)Ag.call(t,r)&&!bg.hasOwnProperty(r)&&(o[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)o[r]===void 0&&(o[r]=t[r]);return{$$typeof:Dg,type:e,key:i,ref:l,props:o,_owner:Ig.current}}tl.Fragment=Lg;tl.jsx=_d;tl.jsxs=_d;ts.exports=tl;const re=ts.exports.jsx,Bt=ts.exports.jsxs;function Mg(){return Bt(xg,{children:[re(Ml,{to:"/",className:({isActive:e})=>e?"active":"",end:!0,children:"Home"}),re(Ml,{to:"/about",className:({isActive:e})=>e?"active":"",children:"Sobre"}),re(Ml,{to:"/contact",className:({isActive:e})=>e?"active":"",children:"Contato"})]})}function Ng(){return re(Rg,{children:re(Mg,{})})}const ur=ho`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,7 +181,7 @@ Error generating stack: `+i.message+`
       }
     }
   }
-`;var Ug="/vite-deploy-demo/assets/React-icon.42d32e69.png",Fg="/vite-deploy-demo/assets/Vue-icon.4a9505c3.png",Vg="/vite-deploy-demo/assets/linkedin.5b59e954.png",Wg="/vite-deploy-demo/assets/twitter.e6ca9110.png";function Hg(){return Bt($g,{children:[Bt(zg,{children:[re("h3",{children:"My favorite Frameworks JS"}),Bt("div",{children:[re("img",{src:Ug,alt:""}),re("img",{src:Fg,alt:""})]})]}),re(jg,{children:Bt("div",{children:[re("h3",{children:"Redes Sociais"}),Bt("ul",{children:[re("li",{children:re("img",{src:Vg,alt:""})}),re("li",{children:re("img",{src:Wg,alt:""})})]})]})})]})}const Bg=Cg`
+`;var Ug="/assets/React-icon.42d32e69.png",Fg="/assets/Vue-icon.4a9505c3.png",Vg="/assets/linkedin.5b59e954.png",Wg="/assets/twitter.e6ca9110.png";function Hg(){return Bt($g,{children:[Bt(zg,{children:[re("h3",{children:"My favorite Frameworks JS"}),Bt("div",{children:[re("img",{src:Ug,alt:""}),re("img",{src:Fg,alt:""})]})]}),re(jg,{children:Bt("div",{children:[re("h3",{children:"Redes Sociais"}),Bt("ul",{children:[re("li",{children:re("img",{src:Vg,alt:""})}),re("li",{children:re("img",{src:Wg,alt:""})})]})]})})]})}const Bg=Cg`
   :root {
     --primary: #24272d;
     --secondary: #24272d;
@@ -391,4 +391,4 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   color: var(--tertiary);
  }
 `;function S1(){return re(P1,{})}const _1=Je.div`
-`;function O1(){return re(_1,{children:re("span",{children:"Contact"})})}function E1(){return re(Yg,{children:Bt(Ev,{children:[re(Yo,{path:"/home",element:re(w1,{})}),re(Yo,{path:"/about",element:re(S1,{})}),re(Yo,{path:"/contact",element:re(O1,{})})]})})}function k1(){return Bt("div",{children:[re(Ng,{}),re(E1,{}),re(Bg,{}),re(Hg,{})]})}Wl.createRoot(document.getElementById("root")).render(re(xn.StrictMode,{children:re(Tv,{basename:"/vite-deploy-demo",children:re(k1,{})})}));
+`;function O1(){return re(_1,{children:re("span",{children:"Contact"})})}function E1(){return re(Yg,{children:Bt(Ev,{children:[re(Yo,{path:"/",element:re(w1,{})}),re(Yo,{path:"/about",element:re(S1,{})}),re(Yo,{path:"/contact",element:re(O1,{})})]})})}function k1(){return Bt("div",{children:[re(Ng,{}),re(E1,{}),re(Bg,{}),re(Hg,{})]})}Wl.createRoot(document.getElementById("root")).render(re(xn.StrictMode,{children:re(Tv,{children:re(k1,{})})}));
