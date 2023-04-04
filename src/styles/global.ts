@@ -3,10 +3,10 @@ import circuit from "@assets/png/o-circuito.png";
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --primary: #000;
-    --secondary: #000;
-    --tertiary: #00FA9A;
-    --quartinary: #00fa9aa6;
+    --primary: #24272d;
+    --secondary: #24272d;
+    --tertiary: #00F9FF;
+    --quartinary: #00F9FF;
   }
   * { 
     margin: 0;
